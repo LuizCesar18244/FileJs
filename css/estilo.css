@@ -1,3 +1,10 @@
+.content{
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 2em;
+}
+
 .inputfile {
   width: 0.1px;
   height: 0.1px;
@@ -22,5 +29,31 @@
 }
 
 .inputfile + label {
+  cursor: pointer;
+}
+
+.aling-button{
+  position: relative;
+  left: 20em;
+}
+
+.button{
+  font-weight: bold;
+  color: white;
+  margin-top: 0.5em;
+  width: 8em;
+  height: 2.5em;
+  background-color: #008B8B;
+  cursor: pointer;
+  border-radius: 0.5em;
+}
+
+.disable-button{
+  opacity: 0.2;
+  cursor: default;
+}
+
+.enable-button{
+  opacity: 1;
   cursor: pointer;
 }
