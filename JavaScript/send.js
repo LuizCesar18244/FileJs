@@ -14,9 +14,14 @@ document.querySelector( '#file' ).addEventListener( 'change', function( e ) {
 		button.disabled = false;
 
 		button.addEventListener( 'click', function( e ) {
-		 let xhr = new XMLHttpRequest ( );
-		console.log( xhr );
-	});
+			let xhr = new XMLHttpRequest ( );
+			xhr.open( 'POST', 'http://localhost:8080/api/file' );
+			xhr.send( );
 
+			xhr.addEventListener( 'load', function( e ) {
+				alert( xhr.responseText );
+			});
+
+		});
 	}
 });
