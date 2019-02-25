@@ -1,7 +1,7 @@
 .content{
   margin: auto;
   width: 30%;
-  border: 3px solid green;
+  border: 3px dashed green;
   padding: 2em;
 }
 
